@@ -1,0 +1,64 @@
+
+                    <is not defined>
+
+eger movcud olamayan ve beyan edilemeyen deyiseni istifade etmeye cehd etsen
+Javascript error verecek.var adi mueyyen edilmedi ve javascript orda dayanacaqdir
+
+
+bir proqram, dilin qaydalarini pozursa bu undefined olur 
+amma bunu  bunu (typeof noname) ile yoxlasaniz (undefined) netice qaytaracaq
+beyan edilmemis deyisenin tipi olmur ve buna gorede tipi undefined olur
+cunku deyisen mevcud deyilse siz ona cata bilmezsiniz
+
+
+NaN:
+Hesaplamada, NaN, bir nömr? deyil, numeric bir data tipi d?y?ri,
+
+xüsusile de floating - point hesablamalarda mueyyen edilmis ve ya t?msil edile bilmeyen bir deyer temsil edir
+Javascript'te, NaN, bir d?y?rin bir sayi olmadigini ifad? etm?k üçün istifad? edil?n ayrilmis bir sözdür
+
+Global scop
+
+H?r modul bütün dig?r modullarin qlobal sah?sind?n ayri olan yeni bir qlobal miqyas t?qdim edir;
+ Heç bir qlobal ?hat? dair?si yoxdur. Modullar dig?r modullarin d?yisiklikl?rini istifad? v? ya 
+idxal b?yanatlari vasit?sil? v? ya nöqt? nisanindan istifad? ed?r?k ixtisasli giris vasit?sil?,
+ y?ni h?r bir modul sözd? ad boslugu vasit?si il? t?qdim ed? bil?rl?r. D?yis?n baglamalar yalniz k?nar moduldan deyil, qlobal miqyasda d?yisil? bil?r.
+
+Functional scope
+
+Kompüter Proqramlasdirmada bir ad baglama ?hat?si - adin bir varliga bir d?yis?n kimi bir birl?sm?si - bir kompüter proqraminin baglamanin etibarli oldugu bölg?si: adi varligi ifad? etm?k üçün istifad? edil? bil?r. Bel? bir bölg?, ?hat? bloku olaraq adlandirilar. Proqramin dig?r hiss?l?rind? adi f?rqli bir varliga (f?rqli bir baglayiciliga sahib ola bil?r) v? ya heç bir sey? (?laq?siz ola bil?r) istinad bil?r. Bir m?zmunu h?cmi, bir varligin, xüsusil? köhn? v? ya daha texniki ?d?biyyatda görünürlügünü olaraq da bilinir - bu, müraci?t edil?n varliq baximindan deyil, qeyd olunan varliq açisindandir. T?tbiqi sah?si, bir proqramin bir sira m?zmunu ?hat?si v? ya ?hat? dair?si ola bil?r - h?ssas bir t?yin etm? ç?tin (tricky), ancaq günd?lik istifad?d? v? praktikada böyük ölçüd? bir dil? bagli olaraq bir blok, bir funksiya v? ya bir fayla qarsiliq g?lir V? varligin növü. "?hat? dair?si" termini, görünür olan bütün varliqlarin hinin? v? ya proqramin bir hiss?sind? v? ya bir proqramdaki mü?yy?n bir nöqt?d? etibarli olan v? daha dogru bir s?kild? kontekstind? v? ya ?traf olaraq adlandirilan adlara istinad tapilar. [A]
+Qisaca [b] v? çoxu proqramlasdirma dili üçün praktikada "bir proqramin parçasi" "qaynaq kodu (m?tn sah?sinin) bir hiss?sini" ifad? edir v? söz ?hat?si olaraq bilin?r.
+ Bununla birlikd?, b?zi dill?rd? "bir proqramin hiss?si", "is zamaninin bir qismi (icra müdd?ti)" m?nasina g?lir v? dinamik ?hat? olaraq bilin?r. Bu terminl?rin h?r ikisi d? aldadicidir - t?rifd? müzakir? kimi texniki terminl?ri sui istifad? ed?rl?r - 
+lakin bu ayri-seçkiliyin özü dogru v? h?ssasdir v? bunlar ?laq?dar standart terimlerdir. Söz ?hat?si il? müqayis?d? dinamik h?cmi aydin oldugu bu m?qal?nin baslica m?rk?z nöqt?si Lüg?t ?hat?sinin.
+?n çox hallarda, söz ?hat?sin? söyk?n?n ad t?hlil, istifad?si v? t?tbiqd? açiqdir; istifad?d? oldugu kimi, bir adin hansi element? atilacagini mü?yy?nl?sdirm?k üçün qaynaq kodunda yalniz geriy? dogru oxuya bil?r v? t?tbiq zamani bir ad siyahisini sad?c? idar? ed? bil?r v? m?zmunu,
+ bir proqrami t?rtib v? ya s?rh etm?k üçün. T?m?l ç?tinlikl?r ad maskelemesi, ir?li b?yanlar v? qaldirmada ortaya çixark?n,
+ xüsusil? d? kapanislarda yerli olmayan d?yis?nl?rl? daha diqq?t? çarpan olan ç?tinlikl?r ortaya çixir.
+
+Java script data type;
+
+dize növü
+
+JavaScript string tipi, m?tn m?lumatlari t?msil etm?k üçün istifad? edil?r. Bu, 16 bitlik unsigned integer d?y?rl?rin "isçil?ri" topasidir.
+ Dize içind?ki h?r element Dize'de bir mövqe tutur. Ilk madd? 0 kataloq, dig?ri kataloq 1-d? v? s. Sisteml?rin uzunlugu, içind? olan madd?l?r sayidir.
+
+
+Primitive d?y?rl?r
+
+Obyektl?rd?n basqa h?r cür d?yism?z d?y?rl?ri (d?yisdirilm?y? qadir olan d?y?rl?r) mü?yy?n edir.
+ M?s?l?n, C-dan f?rqli olaraq, Strings d?yism?zdir. Biz bu növün d?y?rl?rini "ibtidai d?y?rl?r" adlandiririq.
+
+Boolean növü
+
+Boolean m?ntiqi bir novdur v? iki d?y?r? malik ola bil?r: true ve false.
+
+
+
+
+Null növü
+
+Null növü tam olaraq bir d?y?r? malikdir: null. Daha ?trafli m?lumat üçün null v? Null baxin.
+
+
+Undefined növü
+
+Bir d?y?r t?yin edilm?mis bir d?yis?n mü?yy?n edilm?mis d?y?r? malikdir. Daha ?trafli m?lumat üçün undefined v? Undefined oldu.
